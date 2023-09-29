@@ -57,3 +57,23 @@ How should you talk about effort and value?
 2.  Assess contextual factors (e.g., mission and vision, competitive advantage, key relationships)
 
 3.  Track time and impact
+
+## How to Win Friends and Influence People (With Data) [TALK-1077] - Joe Powers, Intuit
+
+Influence Leadership:
+
+1.  identify the problem
+2.  Propose the solution and sell your solution to leadership in terms they understand and already care about. Use terms of time and money. Quantify the solution.
+3.  Build trust in your solutions through simulated trials from familiar business scenarios.
+
+Win over your colleagues:
+
+-   Book recommendation "the design of everyday things" - Don Norman
+
+-   promote your colleagues adoption of your solution by designing a user-friendly interface and ensuring adequate support or adoption:
+
+    -   user-friendly interface
+
+    -   team-by-team interactive training (10 people or less)
+
+    -   have a channel for asking and answering questions
