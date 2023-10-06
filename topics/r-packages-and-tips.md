@@ -16,7 +16,7 @@ Column names can be sentences, not just words.
 
     e.g. ID_USER, ATM_SESSION_DURATION
 
-## Adding a Touch of glitr: Developing a Package of Themes on Top of ggplot [TALK-1103] Aaron Chafetz,  ,Karishma Srikanth, US Agency for International Development
+## Adding a Touch of glitr: Developing a Package of Themes on Top of ggplot [TALK-1103] Aaron Chafetz, ,Karishma Srikanth, US Agency for International Development
 
 Problem: repeating ggplot theme elements across the same file; repeating hex colors that are not standard across the file; repeating standard exports size and dpi.
 
@@ -59,3 +59,63 @@ for CSS in {gt} you can specify the CSS code in the `opt_css(css=…))` code wit
 for Quarto, use my_style.scss files to link your style sheet in .qmd
 
 Albert's tutorial on youtube: <https://www.youtube.com/watch?v=QU8wSya-Y9E>
+
+## It's a Great Time to be an R Package Developer! [TALK-1132] - Jenny Bryan/Hadley Wickham, Posit, PBC
+
+New [R Packages (2e) (r-pkgs.org)](https://r-pkgs.org/)!
+
+-   `use_pkgdown_github_pages()` calls pkgdown website every time your website changes and is going to create a github pages website
+
+-   `use_github_actions()` simplifies the workflow for adding GitHub actions checks
+
+-   updated guidance on testing, folder and file structure.
+
+-   `use_lifecycle()`
+
+-   `use_release_issue()`
+
+## epoxy: Super Glue for Data-driven Reports and Shiny Apps [TALK-1155] - Garrick Aden-Buie, Posit, PBC
+
+{epoxy} is a new package that uses {glue} to give authors templating superpowers. Epoxy works in R Markdown and Quarto, in markdown, LaTeX, and HTML outputs. It also provides easy templating for Shiny apps for dynamic data-driven reporting.
+
+-   inline syntax
+
+-   reusable templates
+
+-   you can use epoxy in scripts, reports, apps (slightly different syntax for shiny) by using the epoxy chunk code like you'd use R chunk:
+
+<!-- -->
+
+-   build on {glue}
+
+    -   glue is build for developers, lightweight and has no dependencies, works great in R scripts primarily
+
+-   epoxy has inline transformers for:
+
+    -   numbers: .dollar, .percent, .coma, .ordinal
+
+    -   text: .titlecase, .bold, .italic
+
+    -   you can also create your function and refer to it in the epoxy in inline code to do the calculation on the fly
+
+    -   you can nest formatters `{.dollar {.cpm max_cost}}` where `.cpm`refers to your function
+
+    -   epoxy can use the dataframe in the chunk or the first (or whatever other) row from data with .data = dat_name[1, ]
+
+    -   `epoxy(), epoxy_html(). epoxy_latex(), epoxy_use_file()`
+
+## Becoming an R Package Author (or How I Got Rich\* Responding to GitHub Issues) [TALK-1133] - Matt Herman, The Council of State Governments Justice Center
+
+Check out {tidycensus} package.
+
+Zed Shaw "Advice from an old programmer"
+
+Ways to become a contributor (using GitHub):
+
+-   Start with answering questions
+
+-   Fix a small bug
+
+-   Think of the small feature you'd like to be implemented
+
+-   Use your domain knowledge to contribute

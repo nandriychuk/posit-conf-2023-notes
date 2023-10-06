@@ -10,7 +10,7 @@ New project type: manuscript (quarto 1.4+)
 
 -   you are able to embed the outputs from other notebooks (.qmd, .ipyb) in your .qmd manuscript file
 
-## What's New in Quarto?\* [TALK-1072] - Charlotte Wickam, Posit, PBC
+## What's New in Quarto? [TALK-1072] - Charlotte Wickam, Posit, PBC
 
 Note, some features described are available with version 1.4. use `quarto --version` in the CLI to view the version of quarto you are using.
 
@@ -20,9 +20,9 @@ Content:
 
 -   cross reference anything with `@fig-scatter` identifier for the div
 
--   inline execution for jupyter pytoncode
+-   inline execution for jupyter pyton code
 
--   add context to code (the code file name, code annothation)
+-   add context to code (the code file name, code annotation)
 
 Projects:
 
@@ -34,7 +34,7 @@ Tools:
 
 -   visual studio code extension
 
-## **Dynamic Interactions: Empowering Educators and Researchers with Interactive Quarto Documents Using webR\* [TALK-1073] - James Balamuta,** University of Illinois Urbana-Champaign
+## Dynamic Interactions: Empowering Educators and Researchers with Interactive Quarto Documents Using webR [TALK-1073] - James Balamuta, University of Illinois Urbana-Champaign
 
 Quarto unifies and extends the R Markdown ecosystem and allows you to switch formats without hassle.
 

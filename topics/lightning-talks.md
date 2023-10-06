@@ -52,8 +52,6 @@ Setup the CI/CD pipeline using GitHub actions
 
 -   deploy only if CI is successful
 
-![](C:/Users/Andrin07/AppData/Local/RStudio/tmp/paste-1BC8CDF2.png)
-
 ## Coding Tools for Industry R&D -- Development Lessons from an Analytical Lab - Speaker Camila Saez Cabezas
 
 Shadow your users and gather the insights:
@@ -82,7 +80,7 @@ Develop the recipe to test milestones:
 
 ## Quickly get your Quarto HTML theme in order - Speaker Greg Swinehart
 
-Customizaable Quarto HTML themes:
+Customizable Quarto HTML themes:
 
 create theme.scss file and add it to a \_quarto.yml
 

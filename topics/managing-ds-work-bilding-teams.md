@@ -77,3 +77,31 @@ Win over your colleagues:
     -   team-by-team interactive training (10 people or less)
 
     -   have a channel for asking and answering questions
+
+## Side Effects of a Year of Blogging [TALK-1130] - Millie Symns, Thinx
+
+Before starting a blog ask yourself:
+
+[What do I want to be known for?]{.ul}
+
+-   What do I do?
+
+-   Who am I?
+
+-   Who would I like to become (as a professional)?\
+
+[My niche in the data space]{.ul}
+
+-   What kind of blogs are out there?
+
+-   What are my strengths?
+
+-   what do I want to learn?
+
+## How to Keep Your Data Science Meetup Sustainable [TALK-1129] - Ted Laderas, DNAnexus, Inc.
+
+Great ideas from Ted and Portland User Group:
+
+the aggregate event: have a separate GitHub repo where participants can submit their R code and projects that they are working on and the group will get together to solve those collectively during the session.
+
+data scavenger hunt: Ted built the app that let 's you explore the data to get the idea of the data on hand and its summaries.

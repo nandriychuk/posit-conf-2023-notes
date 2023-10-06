@@ -88,7 +88,7 @@ Caveats:
 
 -   minor hackery needed
 
-## The Road to Easier Shiny App Deployments [TALK-1089] - Liam Kalita,  Jumping Rivers Ltd
+## The Road to Easier Shiny App Deployments [TALK-1089] - Liam Kalita, Jumping Rivers Ltd
 
 If your shiny app is not working on connect or wasn't deployed correctly:
 
